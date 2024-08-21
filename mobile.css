@@ -1,0 +1,54 @@
+AddType text/css .css .topnav {
+  overflow: hidden;
+  position: relative;
+}
+#topnav {
+  width: 100%;
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to bottom, #c491f4d5, #14052de3);
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+}
+.topnav img {
+  width: 80px;
+  padding: 5px 5px;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #dbb6f4;
+  color: rgb(25, 18, 71);
+}
+
+.topnav #void {
+  margin: 22px 8px;
+}
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04aa6d;
+  color: white;
+}
